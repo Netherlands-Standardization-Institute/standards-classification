@@ -1,5 +1,5 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix ics: <http://data.nen.nl/ics/> .
+@prefix ics: <https://data.nen.nl/ics/> .
 @prefix docs: <http://data.nen.nl/docs/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -64,7 +64,7 @@ ics:hasDocument a rdf:Property ;
     skos:prefLabel "services  company organization, management and quality  administration  transport  sociology  (vocabularies)"@en,
         "diensten  bedrijfsorganisatie, beheer en kwaliteit  administratie  vervoer  sociologie  (woordenlijsten)"@nl .
 
-<http://data.nen.nl/ics/01.040.07> a ics:Class,
+<https://data.nen.nl/ics/01.040.07> a ics:Class,
         skos:Concept ;
     skos:notation "01.040.07" ;
     skos:broader <http://data.nen.nl/ics/01.040> ;
@@ -4424,7 +4424,7 @@ ics:hasDocument a rdf:Property ;
     skos:broader <http://data.nen.nl/ics/29.240> ;
     skos:inScheme <http://data.nen.nl/ics> ;
 	skos:related ics:33.040.60 ;
-	ics:hasDocument <http://data.nen.nl/docs/NEN_3840+A2:2018> ;
+	ics:hasDocument docs:3572926 ;
     skos:prefLabel "power transmission and distribution networks in general"@en,
         "vermogenstransmissie en -verdelingsnet, algemeen"@nl .
 
